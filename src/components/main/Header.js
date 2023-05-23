@@ -42,7 +42,7 @@ const Header = ({selected = ''}) => {
                     </div>
                     <div className="header_link searchLink">
                         <img className={selected === 'search' ? 'selected_icon' : 'header_icon'} alt='icon' src='https://media.discordapp.net/attachments/888505536457367552/1109940133316280471/icons8-search-100.png'></img>
-                        <Link to="/search" className={selected === 'search' ? 'active header_mob_search' : 'header_mob_search'}>Поиск</Link>
+                        <Link to="/search" className={selected === 'app' ? 'active no1000' : 'no1000'}>Поиск</Link>
                     </div>
                 </div>
 

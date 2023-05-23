@@ -86,6 +86,7 @@ button:disabled:hover {
     position: fixed;
     bottom: 0;
     width: 100%;
+    z-index: 2;
 }
 
 .mob_menu a {
@@ -1203,5 +1204,4 @@ img {
 
 .searchLink {
   position: relative;
-  left: 50px;
 }
